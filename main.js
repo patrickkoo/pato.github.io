@@ -18,7 +18,7 @@ function emailSend(){
     }).then(
       message => {
         if(message == 'OK' ) {
-            swal("Succesful", "Thank you for subscribing", "success");
+            swal("Successful", "Thank you for subscribing", "success");
         }
         else{
             swal("Error", "There was an error while submitting the form.", "error");
